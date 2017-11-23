@@ -13,6 +13,7 @@
 		55639F791FC664C500F53BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55639F781FC664C500F53BBA /* Assets.xcassets */; };
 		55639F7C1FC664C500F53BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55639F7A1FC664C500F53BBA /* LaunchScreen.storyboard */; };
 		55639F7F1FC664C500F53BBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55639F7E1FC664C500F53BBA /* main.m */; };
+		55639F8B1FC665AB00F53BBA /* ScrollVerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55639F891FC665AB00F53BBA /* ScrollVerticalView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		55639F7B1FC664C500F53BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55639F7D1FC664C500F53BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55639F7E1FC664C500F53BBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55639F891FC665AB00F53BBA /* ScrollVerticalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollVerticalView.m; sourceTree = "<group>"; };
+		55639F8A1FC665AB00F53BBA /* ScrollVerticalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollVerticalView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		55639F6E1FC664C500F53BBA /* 纵向轮播实现 */ = {
 			isa = PBXGroup;
 			children = (
+				55639F881FC6659B00F53BBA /* scrollVerticalView */,
 				55639F6F1FC664C500F53BBA /* AppDelegate.h */,
 				55639F701FC664C500F53BBA /* AppDelegate.m */,
 				55639F721FC664C500F53BBA /* ViewController.h */,
@@ -69,6 +73,15 @@
 				55639F7E1FC664C500F53BBA /* main.m */,
 			);
 			path = "纵向轮播实现";
+			sourceTree = "<group>";
+		};
+		55639F881FC6659B00F53BBA /* scrollVerticalView */ = {
+			isa = PBXGroup;
+			children = (
+				55639F8A1FC665AB00F53BBA /* ScrollVerticalView.h */,
+				55639F891FC665AB00F53BBA /* ScrollVerticalView.m */,
+			);
+			path = scrollVerticalView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55639F741FC664C500F53BBA /* ViewController.m in Sources */,
+				55639F8B1FC665AB00F53BBA /* ScrollVerticalView.m in Sources */,
 				55639F7F1FC664C500F53BBA /* main.m in Sources */,
 				55639F711FC664C500F53BBA /* AppDelegate.m in Sources */,
 			);
